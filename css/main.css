@@ -129,6 +129,8 @@ textarea {
 
   /* -------------- Mobile styles - Homepage -------------- */
 
+  /* Hero Area */
+
   .hero-area {
     display: flex;
     justify-content: center;
@@ -166,8 +168,7 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
   }
-  /* Footer styles */
-
+  
   /* ==========================================================================
    About Page
    ========================================================================== */
