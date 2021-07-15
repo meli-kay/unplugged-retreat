@@ -130,11 +130,11 @@ textarea {
   }
 
   img {
-
+    width: 100%;
   }
 
   figure {
-
+    margin: 0;
   }
 
   address {
@@ -170,6 +170,13 @@ textarea {
     margin: 0;
   }
 
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   header-divider {
     width: 100%;
     height: 1px;
@@ -189,8 +196,8 @@ textarea {
   }
   
   header nav ul {
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-around;
   }
 
@@ -236,6 +243,10 @@ textarea {
   /* Hero Area */
 
   .hero-area {
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -288,11 +299,15 @@ textarea {
   /* Features */  
 
   .features {
-    display: flex;
+    background: url('../img/unplugged-retreat-features.jpg');
+    background-position: cover;
+    background-position: center;
+
+  display: flex;
     justify-content: center;
     flex-flow: row wrap;
   }
-  
+
   .features h2 {
     margin-bottom: 60px;
   }
