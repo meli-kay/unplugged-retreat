@@ -358,11 +358,13 @@ textarea {
    ========================================================================== */
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
+
   .map figure {
     width: 100%;
     height: 0;
@@ -380,6 +382,7 @@ textarea {
   }
   
   .content-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,6 +399,7 @@ textarea {
    ========================================================================== */
 
   .faq {
+    background-color:#527128;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,6 +614,10 @@ textarea {
     width: 45%;
   }
 
+  .map figure {
+    width: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -619,7 +627,7 @@ textarea {
     justify-content:space-between;
     align-items: flex-start;
   }
-}
+
 
   /* ==========================================================================
    FAQ Page
@@ -636,13 +644,35 @@ textarea {
     .faq h2 {
       width: 100%;
     }
+    .faq h4,
+    .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+  }
+}
+
 
   @media only screen and (min-width: 1200px) {
      /*Desktop styles here*/
+    
+    header {
+      padding: 15px 0;
+    }
+
     .content-wrapper {
       min-width: 960px;
     }
 
+    h2 {
+      font-size: 2.25em;
+    }
+
+    h3,
+    h4 {
+      font-size: 1.125em;
+      line-height: 1.333;
+    }
+    
     /* Hero */
     .hero-area h1 {
       width: 60% ;
@@ -655,7 +685,11 @@ textarea {
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
     width: 30%;
-  }
+    }
+
+    .form-description p {
+      font-size: 1.125em;
+    }
 
     /* Features */
 
@@ -668,16 +702,33 @@ textarea {
     }
 
     /* Reviews */
+
+    .reviews h2 {
+      padding-bottom: 50px;
+    }
+
     .reviews article div {
       width: 42%;
+    }
+
+    footer {
+      font-size: 1.875em;
     }
 
   /* ==========================================================================
    About Page
   ========================================================================== */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
   }
 
    /* ==========================================================================
@@ -685,6 +736,13 @@ textarea {
   ========================================================================== */
   .faq h2 {
     width: 100%;
+    font-size: 3em;
+  }
+  
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
