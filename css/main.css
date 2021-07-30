@@ -425,7 +425,7 @@ textarea {
     margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-flow: row wrap;
   }
   
@@ -772,6 +772,7 @@ textarea {
     /* Aside */
     .aside .content-wrapper {
       justify-content: space-around;
+      min-width: 960px;
     }
 
     aside .content-wrapper .form-description,
@@ -812,9 +813,6 @@ textarea {
       font-size: 1.875em;
     }
 
-    footer .copyright {
-      padding-top: 100px;
-    }
 
   /* ==========================================================================
    About Page
