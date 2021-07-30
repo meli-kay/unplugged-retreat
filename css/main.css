@@ -251,6 +251,7 @@ textarea {
   
   footer .copyright {
     margin: 20px 0;
+    padding-top: 45px;
   }
   
   
@@ -316,7 +317,7 @@ textarea {
 
   .features {
     background: url('../img/unplugged-retreat-features.jpg');
-    background-position: cover;
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -440,7 +441,7 @@ textarea {
   .faq-content h4 {
     line-height: 1.333;
   }
-   
+    
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -590,7 +591,6 @@ textarea {
       margin: 50px 0;
       display: flex;
       justify-content: space-between;
-      align-items: center;
       flex-flow: row wrap;
     }
 
@@ -619,6 +619,10 @@ textarea {
     
     .features i {
       margin-bottom: 30px;
+    }
+
+    .features-items p {
+      width: 62%;
     }
 
     /* Reviews styles */
@@ -767,12 +771,12 @@ textarea {
 
     /* Aside */
     .aside .content-wrapper {
-      justify-content: center;
+      justify-content: space-around;
     }
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      margin-top: 30px;
+      width: 30%;
   
     }
 
@@ -789,6 +793,10 @@ textarea {
     .features article {
       flex-basis: 33%;
     }
+    
+    .features-items p {
+      width: 62%;
+    }
 
     /* Reviews */
 
@@ -802,6 +810,10 @@ textarea {
 
     footer h4 {
       font-size: 1.875em;
+    }
+
+    footer .copyright {
+      padding-top: 100px;
     }
 
   /* ==========================================================================
