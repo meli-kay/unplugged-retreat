@@ -588,10 +588,10 @@ textarea {
   
     /* Aside styles */
     aside .content-wrapper {
-      margin: 50px 0;
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
+      margin: 50px 0;
     }
 
     aside .content-wrapper .form-description,
@@ -770,20 +770,19 @@ textarea {
     }
 
     /* Aside */
-    .aside .content-wrapper {
+    aside .content-wrapper {
       justify-content: space-around;
-      min-width: 960px;
     }
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
       width: 30%;
-  
     }
 
-    .form-description p {
+    aside .form-description p {
       font-size: 1.125em;
     }
+      
 
     /* Features */
 
